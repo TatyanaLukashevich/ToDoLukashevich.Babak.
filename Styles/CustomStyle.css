@@ -1,0 +1,65 @@
+﻿*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:"PT Sans",Helvetica,Arial,sans-serif;
+}
+#tasks {
+    border: 2px black;
+    width: 50%;
+    margin: 20px auto;
+    border-left: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+
+#tasks thead th {
+    font-weight: 700;
+    background-color: #F2F2F2;
+}
+#tasks thead th {
+    padding: 10px;
+    font-size: 14px;
+}
+#tasks td, #tasks th {
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    padding: 5px 14px;
+}
+#loadData, #new{
+    text-align: center;
+}
+#loadData {
+    padding: 10px 0 !important;
+    display: none;
+}
+#newName {
+    border: 1px solid #E0E0E0;
+    padding: 4px 6px;
+    width: calc(100% - 14px);
+    outline: none;
+}
+#newCreate, .delete-button {
+    color: #FFF;
+    background-color: #27AE61;
+    border: 1px solid #27AE61;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 20px;
+    margin: 4px 0;
+    outline: none;
+}
+#newCreate:hover, .delete-button:hover{
+    background-color: #2ec770;
+    border: 1px solid #2ec770;
+}
+#newCreate.disabled, .delete-button{
+    background-color: #bbb;
+    border: 1px solid #bbb;
+}
+.delete-button:hover{
+    background-color: #d62929;
+    border: 1px solid #d62929;
+}
